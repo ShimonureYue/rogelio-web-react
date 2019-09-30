@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 
-import Principal from './modules/Principal';
+import Principal from '../Principal';
+
+import './styles.scss';
 
 class App extends Component {
   render () {
     return (
       <div>
-        <Principal />
+        <Principal id="principal-0" />
       </div>
     );
   };
